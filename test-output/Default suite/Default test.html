@@ -1,0 +1,130 @@
+<html>
+<head>
+<title>TestNG:  Default test</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Default test</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>3/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Fri Sep 13 07:46:33 IST 2024</td>
+</tr>
+<tr><td>Total time:</td><td>54 seconds (54750 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='com.eRail.testCases.checkFourthPositionAndCompareDestinationAndSortDate.sortingAndSelectDate()'><b>sortingAndSelectDate</b><br>Test class: com.eRail.testCases.checkFourthPositionAndCompareDestinationAndSortDate<br/>
+<a href="#Output-957608454" onClick='toggleBox("Output-957608454", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-957608454" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-957608454">
+Click on the 'Sort on Date' textfield<br/>
+select date from sort on date field<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>com.eRail.testCases.checkFourthPositionAndCompareDestinationAndSortDate@431cd9b2</td></tr>
+<tr>
+<td title='com.eRail.testCases.checkFourthPositionAndCompareDestinationAndSortDate.compareDestinationsWithExcelSheet()'><b>compareDestinationsWithExcelSheet</b><br>Test class: com.eRail.testCases.checkFourthPositionAndCompareDestinationAndSortDate<br/>
+<a href="#Output-1847301137" onClick='toggleBox("Output-1847301137", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1847301137" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1847301137">
+Click on the from textfield<br/>
+Clear the from textfield<br/>
+User enter text in From textfield-DEL<br/>
+Check Dendluru city name in from textfield<br/>
+Check Delhi city name in from textfield<br/>
+Check Delang city name in from textfield<br/>
+Click on the from textfield<br/>
+User enter text in From textfield-pune<br/>
+Check pune city name in from textfield<br/>
+Click on the from textfield<br/>
+User enter text in From textfield-mumbai<br/>
+Check pune city name in from textfield<br/>
+</div>
+</td>
+<td></td>
+<td>6</td>
+<td>com.eRail.testCases.checkFourthPositionAndCompareDestinationAndSortDate@431cd9b2</td></tr>
+<tr>
+<td title='com.eRail.testCases.checkFourthPositionAndCompareDestinationAndSortDate.selectFourthPositionFromDropdownAndPrint()'><b>selectFourthPositionFromDropdownAndPrint</b><br>Test class: com.eRail.testCases.checkFourthPositionAndCompareDestinationAndSortDate<br/>
+<a href="#Output-275150920" onClick='toggleBox("Output-275150920", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-275150920" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-275150920">
+Click on the from textfield<br/>
+Clear the from textfield<br/>
+User enter text in From textfield<br/>
+Click on the 4th position from 'From' textfield<br/>
+</div>
+</td>
+<td></td>
+<td>1</td>
+<td>com.eRail.testCases.checkFourthPositionAndCompareDestinationAndSortDate@431cd9b2</td></tr>
+</table><p>
+</body>
+</html>
